@@ -1,0 +1,28 @@
+// INPUTS
+	// Main FPGA CLK
+	NET CLK LOC = "b8";
+	// Right Echo Pin
+	NET RIGHT_PULSE_PIN LOC = "c12";
+	NET RIGHT_PULSE_PIN CLOCK_DEDICATED_ROUTE = FALSE;
+	// Left Echo Pin
+	NET LEFT_PULSE_PIN LOC = "b2"; 
+	NET LEFT_PULSE_PIN CLOCK_DEDICATED_ROUTE = FALSE;
+	// Reset
+	NET RESET LOC = "g12";
+
+//	OUTPUTS
+	// Right Trigger Pin
+	NET RIGHT_TRIGGER_OUT_PIN LOC = "d12";
+	// Left Trigger Pin
+	NET LEFT_TRIGGER_OUT_PIN LOC = "b5";
+	// DC Motor
+	NET DC LOC = "c9";
+	// DC Clock Debug
+	NET DC_CLK_OUT_DEBUG LOC = "a9";
+	// Servo
+	NET SERVO LOC = "b7";
+	// Servo Clock Debug
+	NET SERVO_CLK_OUT_DEBUG LOC = "c6";
+	//	Range Sensor Output LEDs
+	NET ORIENTATION(0) LOC = "m5";
+	NET ORIENTATION(1) LOC = "g1";

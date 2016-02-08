@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator M.81d
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "C:\Users\acer\Desktop\HOMEWORKS\2nd Year\EEE\EEE-102\Project\ObstacleAvoidingRobotFinal\ObstacleAvoidingRobotFinal\//Untitled" -x xcf01s -u 00000000 "C:/Users/acer/Desktop/HOMEWORKS/2nd Year/EEE/EEE-102/Project/ObstacleAvoidingRobotFinal/ObstacleAvoidingRobotFinal/obstacle_avoiding_robot_final.bit" 
+
+PROM C:\Users\acer\Desktop\HOMEWORKS\2nd Year\EEE\EEE-102\Project\ObstacleAvoidingRobotFinal\ObstacleAvoidingRobotFinal\Untitled.prm map: Tue Dec 15 16:35:22 2015
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          128K
+PROM start    0000:0000
+PROM end      0001:ffff
+PROM checksum 00e7bcb2
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0001:1bdb     Dec 15 16:34:21 2015 C:/Users/acer/Desktop/HOMEWORKS/2nd Year/EEE/EEE-102/Project/ObstacleAvoidingRobotFinal/ObstacleAvoidingRobotFinal/obstacle_avoiding_robot_final.bit
